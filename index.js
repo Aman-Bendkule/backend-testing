@@ -19,6 +19,10 @@ client.connect()
 .then(() => console.log('Connected...'))
 .catch(err => console.error('Connection failed:', err));
 
+app.get('/', (req, res) => {
+    res.send('Welcome to Arohi Travels Backend!');
+});
+
 const dbName = 'Arohi_Travels';
 app.use(bodyParser.json());
 
