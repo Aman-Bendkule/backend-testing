@@ -15,7 +15,7 @@ app.use(cors({
 const bcrypt = require('bcrypt')
 
 // const url = `mongodb+srv://shevarepushkar:QJTgoN39Z4ynzvJL@cluster0.7g6ee.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
-const url = `mongodb+srv://amanwisdomsprout:amanwisdomsprout@cluster0.iparkic.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+const url = `mongodb+srv://amanwisdomsprout:amanwisdomsprout@cluster0.iparkic.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true`;
 
 const client = new MongoClient(url);
 
