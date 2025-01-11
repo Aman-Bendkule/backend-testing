@@ -1,8 +1,8 @@
+
 const { MongoClient, ServerApiVersion } = require('mongodb');
 async function main(){
     
-    // const uri = "mongodb+srv://shevarepushkar:QJTgoN39Z4ynzvJL@cluster0.7g6ee.mongodb.net/";
-    const uri = "mongodb+srv://amanwisdomsprout:amanwisdomsprout@cluster0.iparkic.mongodb.net/";
+    const uri = "mongodb+srv://shevarepushkar:QJTgoN39Z4ynzvJL@cluster0.7g6ee.mongodb.net/";
 
     const client = new MongoClient(uri);
 
