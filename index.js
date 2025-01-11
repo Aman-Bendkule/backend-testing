@@ -40,7 +40,7 @@ const authenticateToken = (req, res, next) => {
     });
 };
 
-app.post('/admin-login', async (req, res) => {
+app.post('https://backend-testing-wkft.onrender.com/admin-login', async (req, res) => {
     const { username, password } = req.body;
 
     console.log(username,password);
